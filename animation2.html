@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>document</title>
+  <style>
+
+    div{
+       margin: 100px;
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      animation-name: scaling;
+      animation-duration: 4s;
+    }
+
+     @keyframes scaling {
+      0% {
+        background-color: #001f3f; 
+      translate: 0 0;
+      }
+      25% {
+        background-color: #0074D9; 
+        translate: 200px 0;
+      }
+      50% {
+        background-color: #7FDBFF; 
+        translate: 200px 200px;
+      }
+      75% {
+        background-color: #2ECC40; 
+        translate: 0 200px;
+      }
+      100% {
+        background-color: #01FF70; 
+        translate: 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>
